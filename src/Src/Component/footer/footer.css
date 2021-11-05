@@ -1,0 +1,33 @@
+.footer {
+  margin-top: 2rem;
+  height: 5rem;
+  background: black;
+  text-align: center;
+}
+.footer .credit {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+}
+.footer .credit span {
+  color: red;
+}
+.footer .credit {
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+.footer:hover {
+  background: #fff;
+  color: black;
+  transition: 2s;
+}
+.credit:hover {
+  color: black;
+  transition: 1.5s;
+}
+@media screen and (max-width: 1000px) {
+  .footer .credit {
+    font-size: 20px;
+    display: inline;
+  }
+}

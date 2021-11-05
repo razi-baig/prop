@@ -1,0 +1,69 @@
+.button {
+  margin-left: 32rem;
+}
+
+#btn {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border: none;
+  margin: 1% 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#btn:hover {
+  color: white;
+  background: black;
+  transition: 0.4s;
+}
+/*
+#btn2 {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#btn2:hover {
+  color: white;
+  background: black;
+  transition: 0.4s;
+}
+#btn3 {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#btn3:hover {
+  transition: 0.4s;
+  color: white;
+  background: black;
+}
+#btn1:hover {
+  color: white;
+  background: black;
+  transition: 0.4s;
+}
+#btn2 {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border: none;
+}*/
+#text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 5px;
+  font-size: 17px;
+  margin-top: 1%;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+}
